@@ -1,0 +1,61 @@
+.dark-mode .Contactus {
+    background-color: #1a1a1a;
+    color: rgb(142, 198, 203);
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.light-mode .Contactus {
+    background-color: #fcfcfc;
+    color: #111;
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Contactus h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.Contactus h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.Contactus h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.Contactus p, .Contactus ul {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Contactus li {
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.dark-mode .Contactus a {
+    color: rgb(142, 198, 203);
+    text-decoration: underline;
+}
+
+
+.light-mode .Contactus a {
+    color: #111;
+    text-decoration: underline;
+}

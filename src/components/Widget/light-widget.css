@@ -1,0 +1,114 @@
+.light-mode .fun-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d4af37;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 0 10px 6px #d4af37e6;
+}
+
+.light-mode .widget-icon {
+  font-size: 36px;
+  color: #fafafa;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.light-mode .fun-widget:hover .widget-icon {
+  transform: scale(1.2);
+  color: #4b1414;
+}
+
+.light-mode .fun-widget.open {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.light-mode .widget-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 85%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  font-family: 'Arial', sans-serif;
+  color: #4b1414;
+  text-align: center;
+}
+
+.light-mode .widget-title {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  color: #793c19;
+}
+
+.light-mode .headlines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 200px;
+  overflow-y: auto;
+  gap: 0.5rem;
+}
+
+.light-mode .eachheadline {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: #ffd445c6;
+  color: #4b1414;
+  box-shadow: 0 2px 5px rgba(228, 228, 49, 0.694);
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.light-mode .eachheadline:hover {
+  background: #d4af37;
+  color: #fafafa;
+}
+
+.light-mode #article-box {
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  border: 1px solid #d4af37;
+  border-radius: 10px;
+  margin: 1rem 0;
+  background: #fff8dc;
+  color: #4b1414;
+}
+
+.light-mode .check {
+  padding: 0.8rem 2rem;
+  background: #ffd445c6;
+  color: #4b1414;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.light-mode .check:hover {
+  background: #d4af37;
+  color: #fafafa;
+}

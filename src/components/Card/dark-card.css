@@ -1,0 +1,89 @@
+.dark-mode .cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #111;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.dark-mode .card {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  height: auto;
+  width: 20rem;
+  border-radius: 0.5rem;
+  background-color: #111; 
+  box-shadow: 2px 4px 8px rgba(0, 204, 204, 0.4);
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.dark-mode .card img {
+  height: 12rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.dark-mode .cardcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dark-mode .card a {
+  font-size: 1.3rem;
+  color: #00cccc;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .card a:hover {
+  text-decoration: underline #00cccc;
+}
+
+.dark-mode .card p {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  max-height: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dark-mode .card button {
+  padding: 0.5rem 1rem;
+  background-color: #00cccc;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .card button:hover {
+  background-color: #009999;
+}
+
+.dark-mode .empty-page {
+  background-color: #111;
+  color: rgb(142, 198, 203);
+  padding: 10rem;
+  height: 80vh;
+  text-align: center;
+  font-size: 2rem;
+}

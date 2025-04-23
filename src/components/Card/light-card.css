@@ -1,0 +1,81 @@
+.light-mode .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+    width: 80%;
+    background-color: #f7f7f7; 
+    border-radius: 8px;
+}
+
+.light-mode .card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    height: auto;
+    width: 20rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff; 
+    box-shadow: 0 3px 20px rgb(91, 86, 86);
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+.light-mode .card img {
+    height: 12rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.light-mode .cardcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.light-mode .card a {
+    font-size: 1.3rem;
+    color: #ddac0c;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.light-mode .card a:hover {
+    text-decoration: underline #d4af37;
+}
+
+.light-mode .card p {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-align: center;
+    max-height: 6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.light-mode .card button {
+    padding: 0.5rem 1rem;
+    background-color: #ffcf33;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.light-mode .card button:hover {
+    background: #e0a300;
+}

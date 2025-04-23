@@ -1,0 +1,45 @@
+.dark-mode .Awards {
+    background-color: #1a1a1a;
+    color: rgb(142, 198, 203);
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.light-mode .Awards {
+    background-color: #fcfcfc;
+    color: #111;
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Awards h1 {
+    font-size: 2rem; 
+    margin-bottom: 1.5rem; 
+}
+
+.Awards h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 3rem; 
+}
+
+
+.Awards p, .Awards ul {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+}
+
+.Awards li {
+    margin-bottom: 0.8rem; 
+    line-height: 1.4;
+}

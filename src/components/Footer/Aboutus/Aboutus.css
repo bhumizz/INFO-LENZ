@@ -1,0 +1,41 @@
+.dark-mode .AboutUs {
+
+    background-color: #111; 
+    color: rgb(142, 198, 203);
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    
+}
+
+.light-mode .AboutUs { 
+    
+    background-color: #ffffff;
+    color: #000000da;
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+}
+
+.AboutUs h1{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.AboutUs p {
+    font-size: 1.1rem;
+    max-width: 500px;
+}
+
+#p4{
+    font-size: 1.34rem;
+}
